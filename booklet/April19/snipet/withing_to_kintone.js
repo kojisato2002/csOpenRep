@@ -8,15 +8,16 @@
   const withingsGetMeasure = "https://wbsapi.withings.net/measure";
 
   // script const variables from kintone
-  const kintone_api_token = "62FVxm2voS5WNPImd8pXvJuEb4xqr3dQuO2glUS2"
-  const useDomainName = "si-team-dev.cybozu.com";
-  const tgtKintoneAppId = 177;
+  const kintone_API_token = "ここに「アプリの設定」で取得したtokenを記載します"
+  const useDomainName = "利用するドメイン名のみを記載します(例 hogehoge.cybozu.com)";
+  const tgtKintoneAppId = "作成したkintoneのアプリケーションIDを記載します";
 
   // script const variables from Withings
-  const client_inform = "867fd2387e4dff062068fefb87a0dd9330cd46c25d6d8c5483449df9f0ecc1d7";
-  const client_secret = "ac6bb9bdc0e2b44cbda2b3d7f8f12bf3894080bdc7842f8e25c9c38dffab868b";
-  const access_token  = "480d5b1ea62e89fb2f48bb8de12b181d2ab2b437"; 
-  const refresh_token = "b8fde6e03b2095e9204692b5c137b35354a767e1";
+  const client_inform = "「Withings APIを利用するには」で取得したクライアントIDを記載します";
+  const client_secret = "「Withings APIを利用するには」で取得したコンシューマーシークレットを記載します";
+  const access_token  = "「access token(アクセストークン) の取得」で取得したアクセストークンを記載します"; 
+  const refresh_token = "「access token(アクセストークン) の取得」で取得したリフレッシュトークンを記載します";
+
 
   const kintone = require('kintone-nodejs-sdk');
 

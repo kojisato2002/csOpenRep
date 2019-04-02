@@ -1,7 +1,11 @@
 /*
  * Whithings and kintone cooperation script
  *
+ * Copyright (c) 2019 Cybozu
+ *
+ * Licensed under the MIT License
  */
+
 (function () {
 
   // immutable const variables (下記行は原則不変)
